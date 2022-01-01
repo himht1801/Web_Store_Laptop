@@ -22,6 +22,7 @@ namespace HTComputer.Controllers
                     RouteValueDictionary(new { controller = "Home", action = "Login", Area = "Client" }));
             }
             base.OnActionExecuting(filterContext);
+            //
         }
     }
 }
